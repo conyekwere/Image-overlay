@@ -14,6 +14,8 @@
 		5D38EF3B2C080A95006A29CB /* Text2ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF3A2C080A95006A29CB /* Text2ImageTests.swift */; };
 		5D38EF452C080A95006A29CB /* Text2ImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF442C080A95006A29CB /* Text2ImageUITests.swift */; };
 		5D38EF472C080A95006A29CB /* Text2ImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF462C080A95006A29CB /* Text2ImageUITestsLaunchTests.swift */; };
+		5D38EF542C080B34006A29CB /* textToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF532C080B34006A29CB /* textToImage.swift */; };
+		5D38EF562C080B7C006A29CB /* ImageWithTextOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF552C080B7C006A29CB /* ImageWithTextOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		5D38EF402C080A95006A29CB /* Text2ImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Text2ImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D38EF442C080A95006A29CB /* Text2ImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2ImageUITests.swift; sourceTree = "<group>"; };
 		5D38EF462C080A95006A29CB /* Text2ImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2ImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D38EF532C080B34006A29CB /* textToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textToImage.swift; sourceTree = "<group>"; };
+		5D38EF552C080B7C006A29CB /* ImageWithTextOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTextOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				5D38EF282C080A90006A29CB /* Text2ImageApp.swift */,
 				5D38EF2A2C080A90006A29CB /* ContentView.swift */,
+				5D38EF532C080B34006A29CB /* textToImage.swift */,
+				5D38EF552C080B7C006A29CB /* ImageWithTextOverlayView.swift */,
 				5D38EF2C2C080A94006A29CB /* Assets.xcassets */,
 				5D38EF2E2C080A94006A29CB /* Text2Image.entitlements */,
 				5D38EF2F2C080A94006A29CB /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D38EF542C080B34006A29CB /* textToImage.swift in Sources */,
 				5D38EF2B2C080A90006A29CB /* ContentView.swift in Sources */,
+				5D38EF562C080B7C006A29CB /* ImageWithTextOverlayView.swift in Sources */,
 				5D38EF292C080A90006A29CB /* Text2ImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
