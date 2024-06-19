@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0999342C2277E500C3E495 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0999332C2277E500C3E495 /* VideoPlayerView.swift */; };
 		5D38EF292C080A90006A29CB /* Text2ImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF282C080A90006A29CB /* Text2ImageApp.swift */; };
 		5D38EF2B2C080A90006A29CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38EF2A2C080A90006A29CB /* ContentView.swift */; };
 		5D38EF2D2C080A94006A29CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D38EF2C2C080A94006A29CB /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D0999332C2277E500C3E495 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		5D38EF252C080A90006A29CB /* Text2Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Text2Image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D38EF282C080A90006A29CB /* Text2ImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2ImageApp.swift; sourceTree = "<group>"; };
 		5D38EF2A2C080A90006A29CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		5D38EF272C080A90006A29CB /* Text2Image */ = {
 			isa = PBXGroup;
 			children = (
+				5D0999332C2277E500C3E495 /* VideoPlayerView.swift */,
 				5D38EF282C080A90006A29CB /* Text2ImageApp.swift */,
 				5D38EF2A2C080A90006A29CB /* ContentView.swift */,
 				5D38EF532C080B34006A29CB /* textToImage.swift */,
@@ -273,6 +276,7 @@
 				5D38EF582C083BDB006A29CB /* VideoWithTextOverlayView.swift in Sources */,
 				5D38EF562C080B7C006A29CB /* ImageWithTextOverlayView.swift in Sources */,
 				5D38EF292C080A90006A29CB /* Text2ImageApp.swift in Sources */,
+				5D0999342C2277E500C3E495 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
